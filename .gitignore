@@ -1,0 +1,9 @@
+# Local dependencies
+node_modules
+
+# Logs
+*.log
+
+# Tests results
+coverage
+junit.xml
