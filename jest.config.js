@@ -2,28 +2,29 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
-  // Automatically clear mock calls and instances between every test
-  // Reminder: tests should be independent from each other
-  clearMocks: true,
+    // Automatically clear mock calls and instances between every test
+    // Reminder: tests should be independent from each other
+    clearMocks: true,
 
-  // The directory where Jest should output its coverage files
-  coverageDirectory: "coverage",
+    // The directory where Jest should output its coverage files
+    coverageDirectory: 'coverage',
 
-  // An array of regexp pattern strings used to skip coverage collection
-  coveragePathIgnorePatterns: [
-    "/node_modules/",
-    "<rootDir>/script",
-    "<rootDir>/test",
-  ],
+    // An array of regexp pattern strings used to skip coverage collection
+    coveragePathIgnorePatterns: [
+        '/node_modules/',
+        '<rootDir>/script',
+        '<rootDir>/test',
+    ],
 
-  // Make calling deprecated APIs throw helpful error messages
-  errorOnDeprecated: true,
+    // Make calling deprecated APIs throw helpful error messages
+    errorOnDeprecated: true,
 
-  // A list of paths to modules that run some code to configure or set up the testing framework before each test
-  setupFilesAfterEnv: [
-    '<rootDir>/test/expect.extend.js',
-  ],
+    // A list of paths to modules that run some code to configure or set up the testing
+    // framework before each test
+    setupFilesAfterEnv: [
+        '<rootDir>/test/expect.extend.js',
+    ],
 
-  // The test environment that will be used for testing
-  testEnvironment: "node",
+    // The test environment that will be used for testing
+    testEnvironment: 'node',
 };

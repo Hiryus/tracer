@@ -4,6 +4,7 @@
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/commit-analyzer": "8.0.1",
     "@semantic-release/git": "9.0.0",
+    "@semantic-release/gitlab": "6.0.9",
     "eslint": "7.9.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.22.0",
@@ -15,13 +16,17 @@
     "node": ">=12.0.0"
   },
   "description": "Simple logger.",
-  "main": "src/index.js",
+  "main": "sources/index.js",
   "scripts": {
     "coverage": "jest --coverage",
-    "lint": "eslint scripts src test",
+    "lint": "eslint scripts sources test",
     "test": "jest"
   },
-  "keywords": ["log", "logger", "traces"],
+  "keywords": [
+    "log",
+    "logger",
+    "traces"
+  ],
   "author": "Hiryus",
   "license": "ISC",
   "version": "1.0.0"

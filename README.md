@@ -35,7 +35,7 @@ tracer.access('message', { foo: 'bar' });
 ```javascript
 const tracer = require('tracer');
 
-tracer.loggers.clear();
+tracer.loggers.clear(); // to remove defautl loggers
 tracer.loggers.add({
     levels: ['fatal', 'error'],
     type: 'console',
