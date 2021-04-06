@@ -1,3 +1,10 @@
+# [1.1.0](https://gitlab.com/hiryus-utils/tracer/compare/v1.0.5...v1.1.0) (2021-04-06)
+
+
+### Features
+
+* cleanup distributed package ([9c5b4b4](https://gitlab.com/hiryus-utils/tracer/commit/9c5b4b45a07561e9e0b2589af32052b2aed6c070))
+
 ## [1.0.5](https://gitlab.com/hiryus-utils/tracer/compare/v1.0.4...v1.0.5) (2021-04-06)
 
 
