@@ -1,3 +1,10 @@
+## [1.1.1](https://gitlab.com/hiryus-utils/tracer/compare/v1.1.0...v1.1.1) (2021-04-06)
+
+
+### Bug Fixes
+
+* remove semantic-release cofniguration file from npm archive ([e729e5f](https://gitlab.com/hiryus-utils/tracer/commit/e729e5fc835536b77735979519105dbf995ca78c))
+
 # [1.1.0](https://gitlab.com/hiryus-utils/tracer/compare/v1.0.5...v1.1.0) (2021-04-06)
 
 
