@@ -13,8 +13,7 @@ update:
   only:
   - schedule
   script:
-  - node scripts/update-package.json.js
-  - npm install
+  - npx gardener update
   artifacts:
     expire_in: 1 day
     paths:
@@ -36,5 +35,5 @@ release:
   only:
   - master
   script:
-  - bash scripts/commit-updates.sh
+  - npx gardener commit
   - npx semantic-release --repository-url=$(git remote get-url origin)
