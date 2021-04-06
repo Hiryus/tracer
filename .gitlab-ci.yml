@@ -37,4 +37,4 @@ release:
   - master
   script:
   - bash scripts/commit-updates.sh
-  - npx semantic-release
+  - npx semantic-release --repository-url=$(git remote get-url origin)
