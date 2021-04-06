@@ -1,6 +1,8 @@
 ## Installation
 
-Simply `npm install tracer`.
+```
+npm install @hiryus-org/tracer
+```
 
 
 ## Usage
