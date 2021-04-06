@@ -1,3 +1,10 @@
+## [1.0.5](https://gitlab.com/hiryus-utils/tracer/compare/v1.0.4...v1.0.5) (2021-04-06)
+
+
+### Bug Fixes
+
+* add repository to package.json ([96253c4](https://gitlab.com/hiryus-utils/tracer/commit/96253c409de7b378fe1af879b4e788f334f9c1a5))
+
 ## [1.0.4](https://gitlab.com/hiryus-utils/tracer/compare/v1.0.3...v1.0.4) (2021-04-05)
 
 ## [1.0.3](https://gitlab.com/hiryus-utils/tracer/compare/v1.0.2...v1.0.3) (2021-04-03)
