@@ -7,3 +7,6 @@ node_modules
 # Tests results
 coverage
 junit.xml
+
+# NPM pack resutls
+*.tgz
