@@ -9,7 +9,7 @@ npm install @hiryus-org/tracer
 
 ```javascript
 // Import library
-const tracer = require('tracer');
+const tracer = require('@hiryus-org/tracer');
 
 // By default, event message is output as text on the console for all default
 // levels (fatal, error, warning, info, debug, trace and access).
@@ -35,7 +35,7 @@ tracer.access('message', { foo: 'bar' });
 ## Configuration
 
 ```javascript
-const tracer = require('tracer');
+const tracer = require('@hiryus-org/tracer');
 
 tracer.loggers.clear(); // to remove defautl loggers
 tracer.loggers.add({
