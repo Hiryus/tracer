@@ -1,3 +1,10 @@
+## [1.1.14](https://gitlab.com/hiryus-utils/tracer/compare/v1.1.13...v1.1.14) (2021-06-29)
+
+
+### Bug Fixes
+
+* default logger not working ([e7647ab](https://gitlab.com/hiryus-utils/tracer/commit/e7647ab66921ef359508704e78508cba93b14a5c))
+
 ## [1.1.13](https://gitlab.com/hiryus-utils/tracer/compare/v1.1.12...v1.1.13) (2021-06-25)
 
 ## [1.1.12](https://gitlab.com/hiryus-utils/tracer/compare/v1.1.11...v1.1.12) (2021-06-18)
