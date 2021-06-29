@@ -2,11 +2,9 @@ const ConsoleLogger = require('./loggers/console.class');
 const FileLogger = require('./loggers/file.class');
 
 const loggers = {
-    list: [{
-        levels: ['fatal', 'error', 'warning', 'info', 'debug', 'trace', 'access'],
-        type: 'console',
-        format: 'text',
-    }],
+    list: [
+        new ConsoleLogger(['fatal', 'error', 'warning', 'info', 'debug', 'trace', 'access'], 'text'),
+    ],
 
     get() {
         return this.list;
