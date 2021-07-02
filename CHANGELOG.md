@@ -1,3 +1,5 @@
+## [1.1.15](https://gitlab.com/hiryus-utils/tracer/compare/v1.1.14...v1.1.15) (2021-07-02)
+
 ## [1.1.14](https://gitlab.com/hiryus-utils/tracer/compare/v1.1.13...v1.1.14) (2021-06-29)
 
 
